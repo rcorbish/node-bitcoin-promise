@@ -1,17 +1,19 @@
 # node-bitcoin-promise
-Add Promise support to <A href="https://github.com/freewil/node-bitcoin">bitcoin<A> package 
+Add Promise support to <A href="//github.com/freewil/node-bitcoin/blob/master/Readme.md">bitcoin</A> package 
+
+
 This is fully backward compatible with the original package. If no callback function is
 passed in to a command a Promise is returned
 
 
-var bitcoin = require( './bitcoin-promise.js' ) ;
+	var bitcoin = require( './bitcoin-promise.js' ) ;
 
-var client = new bitcoin.Client({
-	  host: 'rcorbish.ydns.eu',
-	  port: 18332,
-	  user: 'bitcoinrpc',
-	  pass: 'password',
-	  timeout: 30000
+	var client = new bitcoin.Client({
+		host: 'rcorbish.ydns.eu',
+		port: 18332,
+		user: 'bitcoinrpc',
+		pass: 'password',
+		timeout: 30000
 	});
 
 	var promiseAddr1 = client.dumpPrivKey( addr2 ) ;

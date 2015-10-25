@@ -13,7 +13,7 @@
   "contributors": [
   ],
   "dependencies": {
-	"bitcoin": "^3.0.0"
+	"bitcoin": ">= 3.0.0"
   },
   "devDependencies": {
   },
