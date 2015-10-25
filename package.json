@@ -1,0 +1,39 @@
+{
+  "name": "bitcoin-promise",
+  "description": "Communicate with bitcoind via JSON-RPC",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "keywords": [
+    "bitcoin",
+    "promise",
+    "json",
+    "rpc"
+  ],
+  "author": "Richard Corbishley <rcorbish@hotmail.com> (rcorbish.ydns.eu)",
+  "contributors": [
+  ],
+  "dependencies": {
+	"bitcoin": "^3.0.0"
+  },
+  "devDependencies": {
+  },
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rcorbish/node-bitcoin-promise.git"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "bugs": {
+    "url": "https://github.com/rcorbish/node-bitcoin-promise/issues"
+  },
+  "homepage": "https://github.com/rcorbish/node-bitcoin-promise#readme",
+  "directories": {
+    "test": "test"
+  },
+  "license": "Unlicense"
+}
