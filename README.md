@@ -6,7 +6,7 @@ This is fully backward compatible with the original package. If no callback func
 passed in to a command a Promise is returned
 
 
-	var bitcoin = require( './bitcoin-promise.js' ) ;
+	var bitcoin = require( 'bitcoin-promise' ) ;
 
 	var client = new bitcoin.Client({
 		host: 'rcorbish.ydns.eu',

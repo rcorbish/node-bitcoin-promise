@@ -1,7 +1,7 @@
 {
   "name": "bitcoin-promise",
   "description": "Communicate with bitcoind via JSON-RPC",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "lib/index.js",
   "keywords": [
     "bitcoin",
