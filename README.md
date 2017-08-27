@@ -2,7 +2,7 @@
 
 # Summary
 
-Add Promise support to [bitcoin](https:/github.com/freewil/node-bitcoin/blob/master/Readme.md) package.
+Add Promise support to [bitcoin](https://github.com/freewil/node-bitcoin/blob/master/Readme.md) package.
 It is backward compatible with the original package. If no callback function is
 passed in to a command a Promise is returned
 
